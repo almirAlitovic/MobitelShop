@@ -27,7 +27,7 @@
             android:id="@+id/value_text"
             android:layout_marginTop="40dp"
             android:layout_marginStart="20dp"
-            android:text="N/N"
+            android:text="0 KM"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold"

@@ -106,7 +106,7 @@ public class BasketFragment extends Fragment {
         }
 
         if (basketItemModels == null || basketItemModels.isEmpty()) {
-            Snackbar.make(getView(), "Nemate nista u korpi", 500).show();
+            Snackbar.make(getView(), "Korpa je prazna", 700).show();
             return;
         }
 
@@ -138,20 +138,20 @@ public class BasketFragment extends Fragment {
             @Override
             public void onResponse(Call<OrderResponse> call, Response<OrderResponse> response) {
                 if (!response.isSuccessful()) {
-                    Snackbar.make(getView(), "Dogodila se greska", 500).show();
+                    Snackbar.make(getView(), "Dogodila se greška", 500).show();
                 }
 
                 mainActivity.deleteBasketModelItems();
                 basketItemModels = null;
                 adapter.deleteAll();
 
-                Snackbar.make(getView(), "Kupovina uspjesno zavrsena", 500).show();
+                Snackbar.make(getView(), "Kupovina uspješno završena", 700).show();
                 valueText.setText(String.format("%s KM", String.valueOf(0)));
             }
 
             @Override
             public void onFailure(Call<OrderResponse> call, Throwable t) {
-                Snackbar.make(getView(), "Dogodila se greska", 500).show();
+                Snackbar.make(getView(), "Dogodila se greška", 500).show();
             }
         });
 

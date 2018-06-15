@@ -43,7 +43,7 @@
                     android:layout_margin="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Pretrazi po nazivu"/>
+                    android:hint="Pretraži po nazivu"/>
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -66,7 +66,7 @@
                             android:textStyle="bold"
                             android:layout_marginStart="10dp"
                             android:layout_height="wrap_content"
-                            android:text="Izaberi brand"/>
+                            android:text="Izaberite brend"/>
 
                         <TextView
                             android:text="niste odabrali"
@@ -111,7 +111,7 @@
                             android:textStyle="bold"
                             android:layout_marginStart="10dp"
                             android:layout_height="wrap_content"
-                            android:text="Izaberi procesor"/>
+                            android:text="Izaberite procesor"/>
 
                         <ImageView
                             android:id="@+id/clear_cpu"
@@ -155,7 +155,7 @@
                             android:textStyle="bold"
                             android:layout_marginStart="10dp"
                             android:layout_height="wrap_content"
-                            android:text="Izaberi RAM"/>
+                            android:text="Izaberite RAM"/>
 
                         <ImageView
                             android:id="@+id/clear_ram"
@@ -199,7 +199,7 @@
                             android:textStyle="bold"
                             android:layout_marginStart="10dp"
                             android:layout_height="wrap_content"
-                            android:text="Izaberi OS"/>
+                            android:text="Izaberite OS"/>
 
                         <ImageView
                             android:id="@+id/clear_os"
@@ -379,17 +379,17 @@
                     android:textColor="@color/black"/>
 
                 <Button
-                    android:clickable="true"
                     android:id="@+id/search_holder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:text="trazi"
-                    android:background="@null"
                     android:layout_centerVertical="true"
+                    android:layout_marginBottom="1dp"
                     android:layout_marginEnd="5dp"
                     android:layout_marginTop="1dp"
-                    android:layout_marginBottom="1dp"/>
+                    android:background="@null"
+                    android:clickable="true"
+                    android:text="Traži" />
 
             </RelativeLayout>
 

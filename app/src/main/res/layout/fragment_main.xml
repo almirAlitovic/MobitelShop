@@ -80,12 +80,12 @@
                     app:srcCompat="@drawable/recommended"/>
 
                 <TextView
-                    android:text="Preporuceno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Preporučeno"
                     android:textAlignment="center"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -120,7 +120,7 @@
                     app:srcCompat="@drawable/search_main"/>
 
                 <TextView
-                    android:text="Kupuj"
+                    android:text="Kupovina"
                     android:textAlignment="center"
                     android:textSize="18sp"
                     android:textStyle="bold"
